@@ -11,7 +11,7 @@ getgenv().ChatMode = false
 getgenv().NotifMode = true
     getgenv().PartMode = true
     getgenv().AirshotFunccc = true
-    getgenv().Partz = "HumanoidHeadPart"
+    getgenv().Partz = "HumanoidRootPart"
 getgenv().AutoPrediction = false
 --
     _G.Types = {
@@ -42,7 +42,7 @@ circle.Thickness = 0
 circle.NumSides = 732
 circle.Radius = 120
 circle.Thickness = 0
-circle.Transparency = 0.04
+circle.Transparency = 0.5
 circle.Visible = true
 circle.Filled = false
 
